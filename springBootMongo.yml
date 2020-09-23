@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: praneeth9133/springboot:secondtry
+      - image: praneeth9133/spring-boot-mongo:new
         name: springboot
         ports:
         - containerPort: 8080  
